@@ -6,13 +6,40 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-    <TextView
+    <Button
+            android:layout_width="151dp"
+            android:layout_height="52dp" android:id="@+id/button" tools:layout_editor_absoluteY="505dp"
+            tools:layout_editor_absoluteX="130dp" android:text="@string/button"/>
+    <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editTextTextPassword" tools:layout_editor_absoluteY="295dp"
+            tools:layout_editor_absoluteX="87dp" android:hint="@string/password"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editTextTextEmailAddress" tools:layout_editor_absoluteY="199dp"
+            tools:layout_editor_absoluteX="87dp" android:hint="@string/email"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editTextPhone" tools:layout_editor_absoluteY="378dp"
+            tools:layout_editor_absoluteX="87dp" android:hint="@string/numphone"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/editTextText" tools:layout_editor_absoluteY="118dp" tools:layout_editor_absoluteX="87dp"
+            android:hint="@string/et1"/>
+    <TextView
+            android:layout_width="102dp"
+            android:layout_height="39dp" android:id="@+id/tv1" tools:layout_editor_absoluteY="31dp"
+            tools:layout_editor_absoluteX="154dp" android:text="@string/tv1"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
