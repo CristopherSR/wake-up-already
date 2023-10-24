@@ -1,9 +1,4 @@
 <resources>
     <string name="app_name">WakeUpAlready</string>
-    <string name="tv1">Registrarse</string>
-    <string name="et1">Username</string>
-    <string name="email">Ingresa tu email</string>
-    <string name="password">Ingresa tu contraseña</string>
-    <string name="numphone">Numero Telefonico</string>
-    <string name="button">Registrarse</string>
+    <string name="sign_in">Sign in</string>
 </resources>
