@@ -27,6 +27,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        TextView username = (TextView) findViewById(R.id.username);
+        TextView password = (TextView) findViewById(R.id.password);
+
+        MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
+
+        loginbtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+//correcto
+                    Toast.makeText(MainActivity.this, "Inicio de sesion Correcto",Toast.LENGTH_SHORT).show();
+                }else
+//error
+                    Toast.makeText(MainActivity.this, "Inicio de sesion Incorrecto",Toast.LENGTH_SHORT).show();
+            }
+        });
+
         googleBtn = findViewById(R.id.google_btn);
 
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
@@ -70,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (MainActivity.this,MainPageActivity.class);
         startActivity(intent);
     }
+
+
 }
 
 
@@ -77,19 +96,3 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-/**  TextView username = (TextView) findViewById(R.id.username);
- TextView password = (TextView) findViewById(R.id.password);
-
- MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
-
- loginbtn.setOnClickListener(new View.OnClickListener(){
-@Override
-public void onClick(View v) {
-if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
-//correcto
-Toast.makeText(MainActivity.this, "Inicio de sesion Correcto",Toast.LENGTH_SHORT).show();
-}else
-//error
-Toast.makeText(MainActivity.this, "Inicio de sesion Incorrecto",Toast.LENGTH_SHORT).show();
-}
-}); **/

@@ -6,12 +6,13 @@
              tools:context=".fragments.Destinos">
 
 
+
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/Destinos"
             android:text="Destinos"
-            android:layout_centerInParent="true"
-            android:textSize="32dp"
     />
+
 
 </RelativeLayout>
