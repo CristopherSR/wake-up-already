@@ -2,7 +2,6 @@ package com.example.wakeupalready;
 
 import android.content.Intent;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView username = (TextView) findViewById(R.id.username);
-        TextView password = (TextView) findViewById(R.id.password);
+        TextView username = (TextView) findViewById(R.id.et1);
+        TextView password = (TextView) findViewById(R.id.et3);
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
 

@@ -25,7 +25,7 @@
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/username"
+            android:id="@+id/et1"
             android:background="#30ffffff"
             android:layout_below="@id/signin"
             android:hint="Usuario"
@@ -44,8 +44,8 @@
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/password"
-            android:layout_below="@id/username"
+            android:id="@+id/et3"
+            android:layout_below="@id/et1"
             android:background="#30ffffff"
             android:hint="Contraseña"
             android:textColorHint="@color/black"
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/loginbtn"
-            android:layout_below="@id/password"
+            android:layout_below="@id/et3"
             android:text="Iniciar Sesion"
             android:backgroundTint="@color/design_default_color_primary_variant"
             android:layout_centerHorizontal="true"
