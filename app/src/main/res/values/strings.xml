@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">WakeUpAlready</string>
     <string name="sign_in">Sign in</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="link"><a>Crear Cuenta</a></string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="my_api_key">AIzaSyC3GngBuTjjDYabHP5Uhub8WD4MoNbPRBw</string>
 </resources>

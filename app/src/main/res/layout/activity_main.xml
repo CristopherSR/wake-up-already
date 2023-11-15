@@ -84,11 +84,11 @@
             android:layout_alignParentRight="true"
             android:textColor="@color/black"
             android:layout_centerHorizontal="true"
-            android:layout_margin="20dp"
             tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.511"
-            app:layout_constraintVertical_bias="0.587"/>
+            app:layout_constraintVertical_bias="0.587" android:layout_marginTop="20dp" android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" android:layout_marginBottom="20dp"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -96,14 +96,14 @@
             android:id="@+id/CreateAcount"
             android:layout_below="@id/loginbtn"
             android:layout_alignParentLeft="true"
-            android:text="Crear Cuenta"
+            android:text="@string/link"
             android:textColor="@color/black"
             android:layout_centerHorizontal="true"
-            android:layout_margin="20dp"
             tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.511"
-            app:layout_constraintVertical_bias="0.587"/>
+            app:layout_constraintVertical_bias="0.587" android:layout_marginTop="20dp" android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" android:layout_marginBottom="20dp"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
